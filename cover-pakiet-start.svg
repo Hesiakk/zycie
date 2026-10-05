@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+<rect width="800" height="1000" fill="#111113"/>
+<circle cx="610" cy="190" r="250" fill="none" stroke="#d7ff54" stroke-opacity=".22" stroke-width="2"/>
+<circle cx="610" cy="190" r="175" fill="none" stroke="#fff" stroke-opacity=".12"/>
+<text x="70" y="120" fill="#d7ff54" font-family="Arial" font-size="22" font-weight="700" letter-spacing="5">ŻYCIE NA TWOICH WARUNKACH</text>
+<text x="70" y="520" fill="#f3f0e8" font-family="Georgia,serif" font-size="82">Żyj</text>
+<text x="70" y="610" fill="#f3f0e8" font-family="Arial" font-size="78" font-weight="800">po swojemu.</text>
+<line x1="70" y1="675" x2="730" y2="675" stroke="#303035"/>
+<text x="70" y="735" fill="#a3a09a" font-family="Arial" font-size="26">3 e-booki • jeden kierunek</text>
+<text x="70" y="900" fill="#d7ff54" font-family="Arial" font-size="24" font-weight="700">PAKIET START</text>
+</svg>

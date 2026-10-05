@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100">
+<defs><radialGradient id="g"><stop stop-color="#d7ff54" stop-opacity=".95"/><stop offset="1" stop-color="#0a0a0b" stop-opacity="0"/></radialGradient></defs>
+<rect width="800" height="1100" fill="#101011"/><circle cx="640" cy="230" r="300" fill="url(#g)" opacity=".55"/>
+<circle cx="610" cy="230" r="120" fill="#f0efe7"/><circle cx="610" cy="230" r="120" fill="none" stroke="#fff" stroke-opacity=".4"/>
+<text x="60" y="90" fill="#d7ff54" font-family="Arial" font-size="20" letter-spacing="6">ŻYCIE NA TWOICH WARUNKACH</text>
+<text x="60" y="700" fill="#f3f0e8" font-family="Georgia" font-size="72">OD NOWA.</text>
+<text x="60" y="790" fill="#a3a09a" font-family="Arial" font-size="25">Instrukcja powrotu do siebie</text>
+<text x="60" y="1030" fill="#777" font-family="Arial" font-size="18">E-BOOK  /  01</text></svg>

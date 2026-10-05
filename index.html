@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pl">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Życie na Twoich warunkach — e-booki i narzędzia dla ludzi, którzy chcą świadomie budować swoje życie." name="description"/>
+  <title>
+   Życie na Twoich warunkach
+  </title>
+  <link href="favicon.svg" rel="icon"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="noise">
+  </div>
+  <!-- ===== HEADER / NAWIGACJA ===== -->
+  <header class="site-header">
+   <a aria-label="Życie na Twoich warunkach" class="brand" href="#start">
+    <span class="brand-mark">
+     Ż
+    </span>
+    <span>
+     Życie na Twoich
+     <br/>
+     <b>
+      warunkach.
+     </b>
+    </span>
+   </a>
+   <nav>
+    <a href="#filozofia">
+     Filozofia
+    </a>
+    <a href="#sklep">
+     E-booki
+    </a>
+    <a href="#kontakt">
+     Kontakt
+    </a>
+   </nav>
+   <button aria-label="Otwórz koszyk" class="cart-button" id="cartOpen">
+    Koszyk
+    <span id="cartCount">
+     0
+    </span>
+   </button>
+  </header>
+  <main>
+   <!-- ===== HERO ===== -->
+   <section class="hero" id="start">
+    <div class="hero-copy">
+     <p class="eyebrow">
+      NIE CZEKAJ NA LEPSZY MOMENT
+     </p>
+     <h1>
+      Życie nie jest próbą generalną.
+     </h1>
+     <p class="hero-lead">
+      Masz jedno. Zacznij układać je po swojemu — świadomie, odważnie i bez ciągłego oglądania się na innych.
+     </p>
+     <div class="hero-actions">
+      <a class="btn btn-primary" href="#sklep">
+       Zobacz e-booki
+       <span>
+        ↗
+       </span>
+      </a>
+      <a class="text-link" href="#filozofia">
+       Poznaj ideę ↓
+      </a>
+     </div>
+    </div>
+    <div aria-hidden="true" class="hero-art">
+     <div class="orbit orbit-1">
+     </div>
+     <div class="orbit orbit-2">
+     </div>
+     <div class="sun">
+     </div>
+     <div class="quote-card">
+      <span>
+       01 / 03
+      </span>
+      <strong>
+       Nie musisz
+       <br/>
+       żyć według
+       <br/>
+       cudzego planu.
+      </strong>
+     </div>
+    </div>
+   </section>
+
+   <!-- ===== FILOZOFIA ===== -->
+   <section class="manifest" id="filozofia">
+    <div>
+     <p class="eyebrow">
+      NASZA FILOZOFIA
+     </p>
+     <h2>
+      Twoje życie.
+      <br/>
+      <em>
+       Twoje zasady.
+      </em>
+     </h2>
+    </div>
+    <p class="manifest-copy">
+     Nie sprzedajemy idealnego życia. Dajemy Ci narzędzia do budowania własnego. Bez pustych obietnic, bez udawania, że wszystko da się naprawić w siedem dni.
+    </p>
+   </section>
+
+   <!-- ===== 3 FILARY ===== -->
+   <section class="pillars">
+    <article>
+     <span>
+      01
+     </span>
+     <h3>
+      Świadomość
+     </h3>
+     <p>
+      Zrozum, czego naprawdę chcesz, zanim zaczniesz gonić za tym, czego chcą inni.
+     </p>
+    </article>
+    <article>
+     <span>
+      02
+     </span>
+     <h3>
+      Decyzja
+     </h3>
+     <p>
+      Przestań odkładać ważne rzeczy na „kiedyś”. Zacznij podejmować własne decyzje.
+     </p>
+    </article>
+    <article>
+     <span>
+      03
+     </span>
+     <h3>
+      Działanie
+     </h3>
+     <p>
+      Małe kroki wykonywane regularnie potrafią zmienić kierunek całego życia.
+     </p>
+    </article>
+   </section>
+
+   <!-- ===== SKLEP ===== -->
+   <section class="shop" id="sklep">
+    <div class="section-heading">
+     <div>
+      <p class="eyebrow">
+       SKLEP
+      </p>
+      <h2>
+       E-booki, które
+       <br/>
+       mają
+       <em>
+        zostać z Tobą.
+       </em>
+      </h2>
+     </div>
+     <p>
+      Wybierz jeden temat albo weź cały zestaw i pracuj nad zmianą krok po kroku.
+     </p>
+    </div>
+    <div class="shop-tools">
+     <div class="filters" id="filters">
+     </div>
+     <button class="text-link" id="clearFilter" type="button">
+      Pokaż wszystko
+     </button>
+    </div>
+    <div class="products" id="products">
+    </div>
+   </section>
+
+   <!-- ===== PAKIET ===== -->
+   <section class="bundle-banner" id="pakiet">
+    <div>
+     <p class="eyebrow">
+      NAJLEPSZA WARTOŚĆ
+     </p>
+     <h2>
+      Nie wiesz, od czego zacząć?
+      <br/>
+      <em>
+       Zacznij od całości.
+      </em>
+     </h2>
+     <p>
+      Trzy e-booki, jeden spójny kierunek: od uporządkowania głowy, przez działanie, aż po życie we własnym tempie.
+     </p>
+    </div>
+    <div class="bundle-price">
+     <span class="old-price">
+      102,00 zł
+     </span>
+     <strong>
+      79,00 zł
+     </strong>
+     <small>
+      oszczędzasz 23,00 zł
+     </small>
+     <button class="btn btn-primary" id="bundleAdd">
+      Dodaj pakiet do koszyka
+      <span>
+       +
+      </span>
+     </button>
+    </div>
+   </section>
+
+   <!-- ===== CTA ===== -->
+   <section class="statement">
+    <p class="eyebrow">
+     ZAPAMIĘTAJ
+    </p>
+    <h2>
+     Nie potrzebujesz
+     <br/>
+     cudzego pozwolenia.
+    </h2>
+    <p>
+     Najważniejszą decyzję możesz podjąć dokładnie tam, gdzie jesteś.
+    </p>
+   </section>
+
+   <!-- ===== KONTAKT ===== -->
+   <section class="contact" id="kontakt">
+    <div>
+     <p class="eyebrow">
+      KONTAKT
+     </p>
+     <h2>
+      Masz pytanie?
+      <br/>
+      <em>
+       Napisz.
+      </em>
+     </h2>
+     <p>
+      Współpraca, pytania dotyczące zamówienia albo po prostu wiadomość — jesteśmy po drugiej stronie.
+     </p>
+    </div>
+    <div class="contact-card">
+     <a href="mailto:kontakt@twojadomena.pl">
+      kontakt@twojadomena.pl
+     </a>
+     <div class="socials">
+      <a href="https://facebook.com/" rel="noopener" target="_blank">
+       Facebook
+      </a>
+      <a href="https://instagram.com/" rel="noopener" target="_blank">
+       Instagram
+      </a>
+      <a href="https://tiktok.com/" rel="noopener" target="_blank">
+       TikTok
+      </a>
+     </div>
+    </div>
+   </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+   <div class="footer-brand">
+    Życie na Twoich warunkach.
+   </div>
+   <div class="footer-links">
+    <a href="/regulamin.html">
+     Regulamin
+    </a>
+    <a href="/prywatnosc.html">
+     Prywatność
+    </a>
+    <a href="mailto:kontakt@twojadomena.pl">
+     Kontakt
+    </a>
+   </div>
+   <span>
+    © 2026 Życie na Twoich warunkach
+   </span>
+  </footer>
+  <aside aria-hidden="true" class="cart" id="cart">
+   <div class="cart-head">
+    <div>
+     <p class="eyebrow">
+      ZAMÓWIENIE
+     </p>
+     <h2>
+      Twój koszyk
+     </h2>
+    </div>
+    <button aria-label="Zamknij koszyk" id="cartClose">
+     ×
+    </button>
+   </div>
+   <div class="cart-items" id="cartItems">
+   </div>
+   <div class="cart-upsell" id="cartUpsell">
+   </div>
+   <div class="cart-bottom">
+    <div class="total">
+     <span>
+      Razem
+     </span>
+     <strong id="cartTotal">
+      0,00 zł
+     </strong>
+    </div>
+    <button class="btn btn-primary full" id="checkout">
+     Przejdź do bezpiecznej płatności
+     <span>
+      →
+     </span>
+    </button>
+    <small>
+     Stripe • płatność kartą i innymi dostępnymi metodami. Kody rabatowe mogą być dostępne podczas płatności.
+    </small>
+   </div>
+  </aside>
+  <div class="overlay" id="overlay">
+  </div>
+  <div aria-hidden="true" class="product-modal" id="productModal">
+   <div class="modal-card">
+    <button class="modal-close" id="modalClose">
+     ×
+    </button>
+    <div id="modalContent">
+    </div>
+   </div>
+  </div>
+  <script src="app.js">
+  </script>
+ </body>
+</html>
